@@ -1,0 +1,42 @@
+PODS:
+  - Hero (1.4.0)
+  - IQKeyboardManager (6.2.1)
+  - lottie-ios (3.0.3)
+  - pop (1.0.12)
+  - Realm (3.14.1):
+    - Realm/Headers (= 3.14.1)
+  - Realm/Headers (3.14.1)
+  - RealmSwift (3.14.1):
+    - Realm (= 3.14.1)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Hero
+  - IQKeyboardManager
+  - lottie-ios
+  - pop (~> 1.0)
+  - RealmSwift
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Hero
+    - IQKeyboardManager
+    - lottie-ios
+    - pop
+    - Realm
+    - RealmSwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  IQKeyboardManager: 964638372b4a61892cc74fdfa6fd26de8c9464a2
+  lottie-ios: 06e0b54aab85ba128e332687d7f4ac4861a7a7ae
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  Realm: e12c9c2387d05c5bba3a9c394838f5870e85763b
+  RealmSwift: a82eab9b04c3e1616082c7e17aa300740847769c
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 6177766bd1246afb145bfd3a34bad15ac25c7e8d
+
+COCOAPODS: 1.6.1

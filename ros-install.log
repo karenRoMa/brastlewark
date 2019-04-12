@@ -1,0 +1,32 @@
+npm WARN deprecated @types/winston@2.4.4: This is a stub types definition. winston provides its own type definitions, so you do not need this installed.
+npm WARN deprecated uws@10.148.0: New code is available at github.com/uNetworking/uWebSockets.js
+/Users/karenrodriguez/.nvm/versions/node/v10.15.3/bin/ros -> /Users/karenrodriguez/.nvm/versions/node/v10.15.3/lib/node_modules/realm-object-server/dist/cli.js
+
+> diskusage@0.2.6 install /Users/karenrodriguez/.nvm/versions/node/v10.15.3/lib/node_modules/realm-object-server/node_modules/diskusage
+> node-gyp rebuild
+
+  CXX(target) Release/obj.target/diskusage/src/main.o
+../src/main.cpp:26:42: warning: 'Utf8Value' is deprecated [-Wdeprecated-declarations]
+        DiskUsage result = GetDiskUsage(*v8::String::Utf8Value(info[0]));
+                                         ^
+/Users/karenrodriguez/.node-gyp/10.15.3/include/node/v8.h:2891:5: note: 'Utf8Value' has been explicitly marked deprecated here
+    V8_DEPRECATED("Use Isolate version",
+    ^
+/Users/karenrodriguez/.node-gyp/10.15.3/include/node/v8config.h:327:29: note: expanded from macro 'V8_DEPRECATED'
+  declarator __attribute__((deprecated))
+                            ^
+1 warning generated.
+  CXX(target) Release/obj.target/diskusage/src/diskusage_posix.o
+  SOLINK_MODULE(target) Release/diskusage.node
+
+> realm@2.25.0 install /Users/karenrodriguez/.nvm/versions/node/v10.15.3/lib/node_modules/realm-object-server/node_modules/realm
+> node-pre-gyp install --fallback-to-build
+
+node-pre-gyp WARN Using request for node-pre-gyp https download 
+[realm] Success: "/Users/karenrodriguez/.nvm/versions/node/v10.15.3/lib/node_modules/realm-object-server/node_modules/realm/compiled/node-v64_darwin_x64/realm.node" is installed via remote
+
+> uws@10.148.0 install /Users/karenrodriguez/.nvm/versions/node/v10.15.3/lib/node_modules/realm-object-server/node_modules/uws
+> node-gyp rebuild > build_log.txt 2>&1 || exit 0
+
++ realm-object-server@3.20.1
+added 390 packages from 395 contributors in 80.484s
